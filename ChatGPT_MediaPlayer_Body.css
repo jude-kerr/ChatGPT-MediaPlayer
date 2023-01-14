@@ -1,0 +1,41 @@
+.media-player {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.media-player video {
+    width: 100%;
+}
+
+.media-player .controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.media-player .controls button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.media-player .controls #volume {
+    width: 100px;
+}
+
+.credit {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #3498db;
+}
+
+.credit:hover {
+    color: red;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
